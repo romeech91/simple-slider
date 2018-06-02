@@ -19,7 +19,7 @@ function sliderRight() {
     let list = document.querySelector('.slider__list');
     left = left + 400;
 
-    if (left > 399) {
+    if (left > 400) {
         left = -1200;
     }
 
